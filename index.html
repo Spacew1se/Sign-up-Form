@@ -21,8 +21,8 @@
         </div>
         <div class="form-wrapper">
             <h2 class="call-to-action">Dummy Text</h2>
-            <div class="forms">
-                <form action="">
+            <form action="" method="get" class="forms">
+                <div class="form-inputs">
                     <div class="form-row">
                         <label for="first-name">First Name</label>
                         <input type="text" id="first-name" name="user_fname">
@@ -37,12 +37,15 @@
                     </div>
                     <div class="form-row">
                         <label for="password">Password</label>
-                        <input type="text" name="user_password" id="password">
+                        <input type="password" name="user_password" id="password">
                         <label for="password">Confirm Password</label>
-                        <input type="text" name="confirm_password" id="password_confirm">
+                        <input type="password" name="confirm_password" id="password_confirm">
                     </div>
-                </form>
-            </div>
+                </div>
+                <div class="form-submit">
+                    <button type="button" class="submit">Create Account</button>
+                </div>
+            </form>     
         </div>
     </div>
 </body>

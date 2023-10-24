@@ -66,25 +66,24 @@ h6 {
     display: flex;
     position: relative;
     height: 100vh;
+    min-width: fit-content;
     background-image: url(./images/taylor-van-riper-yQorCngxzwI-unsplash.jpg);
     background-size: cover;
-    flex-basis: 40%;
+    flex-basis: 35%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: none;
 }
 
 .logo-backdrop {
     width: 100%;
     position: absolute;
-    align-self: center;
-    vertical-align: middle;
-    border: 1px solid red;
+    background-color: rgba(17,17,17,.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 4%;
+    margin-bottom: 25vh;
 }
 
 .logo {
@@ -92,12 +91,43 @@ h6 {
 }
 
 .form-wrapper {
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action {
+    flex-basis: 35%;
+    background-color: #f6f7f8;
+    border: 1px solid red;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 65%;
+    
+}
+
+.form-inputs {
+    background-color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 40%;
+    border: 1px solid blue;
+}
+
+.form-submit {
+    border: 1px solid green;
     flex-basis: 60%;
+    background-color: #f6f7f8;
 }
 
 h1 {
     font-family: metal-mania, sans-serif;
     font-size: 5em;
+    color: whitesmoke;
 }
 
 .footer {
