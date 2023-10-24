@@ -57,3 +57,49 @@ h6 {
     font-family: metal-mania;
     src: url(./fonts/MetalMania-Regular.ttf);
 }
+
+.wrapper {
+    display: flex;
+}
+
+.background-img {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    background-image: url(./images/taylor-van-riper-yQorCngxzwI-unsplash.jpg);
+    background-size: cover;
+    flex-basis: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.logo-backdrop {
+    width: 100%;
+    position: absolute;
+    align-self: center;
+    vertical-align: middle;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.logo {
+    height: 5em;
+}
+
+.form-wrapper {
+    flex-basis: 60%;
+}
+
+h1 {
+    font-family: metal-mania, sans-serif;
+    font-size: 5em;
+}
+
+.footer {
+    margin-top: auto;
+}
