@@ -21,29 +21,27 @@
         </div>
         <div class="form-wrapper">
             <h2 class="call-to-action">Dummy Text</h2>
-            <form action="" method="get" class="forms">
+            <form action="" method="get" id="forms">
                 <div class="form-inputs">
-                    <div class="form-row">
+                    <div class="form-col">
                         <label for="first-name">First Name</label>
                         <input type="text" id="first-name" name="user_fname">
-                        <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="user_lname">
-                    </div>
-                    <div class="form-row">
                         <label for="email">Email</label>
                         <input type="email" id="email" name="user_email">
+                        <label for="password">Password</label>
+                        <input type="password" name="user_password" id="password">
+                    </div>
+                    <div class="form-col">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="user_lname">
+                        <label for="password">Confirm Password</label>
+                        <input type="password" name="confirm_password" id="password_confirm">
                         <label for="phone-number">Phone Number</label>
                         <input type="tel" id="phone-number" name="user_phone">
                     </div>
-                    <div class="form-row">
-                        <label for="password">Password</label>
-                        <input type="password" name="user_password" id="password">
-                        <label for="password">Confirm Password</label>
-                        <input type="password" name="confirm_password" id="password_confirm">
-                    </div>
                 </div>
                 <div class="form-submit">
-                    <button type="button" class="submit">Create Account</button>
+                    <button type="button" class="submit" form="forms">Create Account</button>
                 </div>
             </form>     
         </div>
